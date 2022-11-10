@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import logo from './logo.svg';
-import { MyButton } from 'my-lib';
+import { MyButton, MyTextBox } from 'my-lib';
 import './App.css';
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo" />
                 <p>Hello Vite + React!</p>
-                <p>count is: {count}</p>
+                <MyTextBox>count is: {count}</MyTextBox>
                 <p>
                     <MyButton onClick={() => setCount((count) => count + 1)}>Click here!</MyButton>
                 </p>

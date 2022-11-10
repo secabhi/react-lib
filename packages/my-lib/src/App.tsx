@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import MyButton from './lib/MyButton';
+import MyButton from './lib/components/Button/MyButton';
 
 function App() {
     return (
